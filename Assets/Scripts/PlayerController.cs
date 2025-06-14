@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Vector3 movementDirection;
-    private readonly float speed = 10.0f;
     private GameObject focalPoint; //parent of the Camera
     private FollowPlayer cameraFollowScript;
 
